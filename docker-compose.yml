@@ -1,0 +1,19 @@
+volumes:
+  db_data:
+
+services:
+  mysql:
+    restart: always
+    container_name: "mysql"
+    image: mysql:latest
+    ports:
+      - 3306:3306
+    command: --init-file /data/application/init.sql
+    environment:
+      - MYSQL_ROOT_PASSWORD=password
+      - MYSQL_DATABASE=users
+      - MYSQL_USER=user
+      - MYSQL_PASSWORD=password
+    volumes:
+      - ./init.sql:/data/application/init.sql
+      - db_data:/var/lib/mysql

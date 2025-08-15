@@ -1,0 +1,81 @@
+2025-08-15 17:09:43,279 DEBUG connect 39 
+Connected to MySQL Server version: 9.4.0
+
+2025-08-15 17:09:55,130 DEBUG execute_query 57 
+Запрос SELECT * FROM T успешно выполнен. None
+
+2025-08-15 17:09:57,532 DEBUG close 49 
+Connection to MySQL Server closed
+
+2025-08-15 17:10:25,999 DEBUG connect 39 
+Connected to MySQL Server version: 9.4.0
+
+2025-08-15 17:10:30,049 DEBUG execute_query 57 
+Запрос SELECT * FROM T успешно выполнен. None
+
+2025-08-15 17:10:31,294 DEBUG close 49 
+Connection to MySQL Server closed
+
+2025-08-15 17:10:46,853 DEBUG connect 39 
+Connected to MySQL Server version: 9.4.0
+
+2025-08-15 17:10:50,539 DEBUG execute_query 57 
+Запрос 
+        INSERT успешно выполнен. None
+
+2025-08-15 17:10:50,546 DEBUG close 49 
+Connection to MySQL Server closed
+
+2025-08-15 17:10:55,875 DEBUG connect 39 
+Connected to MySQL Server version: 9.4.0
+
+2025-08-15 17:11:00,107 DEBUG execute_query 57 
+Запрос SELECT * FROM T успешно выполнен. {'id': 5, 'telegram_id': 478798877, 'first_name': 'Вера', 'last_name': 'Порошина', 'username': 'vera_poroshina', 'phone_number': '79222119999'}
+
+2025-08-15 17:11:01,295 DEBUG close 49 
+Connection to MySQL Server closed
+
+2025-08-15 17:11:02,220 DEBUG order_sup 183 
+Пользователь {'id': 5, 'telegram_id': 478798877, 'first_name': 'Вера', 'last_name': 'Порошина', 'username': 'vera_poroshina', 'phone_number': '79222119999'} приступил к заказу.
+
+2025-08-15 17:11:12,689 DEBUG connect 39 
+Connected to MySQL Server version: 9.4.0
+
+2025-08-15 17:11:16,040 DEBUG execute_query 57 
+Запрос 
+               успешно выполнен. None
+
+2025-08-15 17:11:16,043 DEBUG close 49 
+Connection to MySQL Server closed
+
+2025-08-15 17:11:25,579 DEBUG connect 39 
+Connected to MySQL Server version: 9.4.0
+
+2025-08-15 17:12:14,722 DEBUG execute_query 57 
+Запрос 
+               успешно выполнен. None
+
+2025-08-15 17:12:14,728 DEBUG close 49 
+Connection to MySQL Server closed
+
+2025-08-15 17:12:35,537 DEBUG connect 39 
+Connected to MySQL Server version: 9.4.0
+
+2025-08-15 17:12:38,548 DEBUG execute_query 57 
+Запрос SELECT * FROM T успешно выполнен. {'id': 5, 'telegram_id': 478798877, 'first_name': 'Вера', 'last_name': 'Порошина', 'username': 'vera_poroshina', 'phone_number': '79222119999'}
+
+2025-08-15 17:12:39,398 DEBUG close 49 
+Connection to MySQL Server closed
+
+2025-08-15 17:12:49,762 DEBUG call_me 151 
+Пользователь запросил обратную связь
+
+2025-08-15 17:12:52,283 DEBUG connect 39 
+Connected to MySQL Server version: 9.4.0
+
+2025-08-15 17:12:55,042 DEBUG execute_query 57 
+Запрос SELECT * FROM T успешно выполнен. {'id': 5, 'telegram_id': 478798877, 'first_name': 'Вера', 'last_name': 'Порошина', 'username': 'vera_poroshina', 'phone_number': '79222119999'}
+
+2025-08-15 17:12:55,873 DEBUG close 49 
+Connection to MySQL Server closed
+
